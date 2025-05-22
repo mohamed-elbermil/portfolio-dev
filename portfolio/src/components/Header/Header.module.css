@@ -1,0 +1,22 @@
+img {
+    width: 20em;
+    border-radius: 100em;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.status p {
+    font-size: 18px;
+}
+
+.round {
+    background: green;
+    width: 1em;
+    height: 1em;
+    margin-right: 1em;
+    border-radius: 100em;
+}
