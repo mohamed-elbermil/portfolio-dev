@@ -1,0 +1,54 @@
+nav {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top:2em;
+}
+
+.round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(335deg, #393939, #808080);
+    width: 3em;
+    height: 3em;
+    border-radius: 90px;
+    box-shadow: 5px 5px 11px #0000006e; 
+    transition-duration: .4s;
+}
+
+.round:hover {
+    box-shadow: 5px 5px 25px #00000094; 
+}
+
+.round:hover i{
+    color: #202020;
+}
+
+.round i {
+    font-size: 18px;
+    color: #ffffffde;
+    transition-duration: .2s;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 54px;
+    border: solid 1px #ffffffab;
+    background: linear-gradient(135deg, #2c2c2c 0%, #3b3b3b 50%, #4a4a4a 100%);
+    padding: 5px 10px;
+}
+
+
+nav a {
+    font-size: 16px;
+    color: #C7C7C7;
+}
+
+
+nav li {
+    padding: 16px;
+}

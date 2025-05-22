@@ -24,6 +24,28 @@ img {
     animation: signal 1s infinite;
 }
 
+.alert {
+    position: relative;
+    z-index: 1;
+}
+
+.roundAlert {
+    position: absolute;
+    top: -5px;
+    width: 21px;
+    height: 21px;
+    background: #4cdc855e;
+    left: -4px;
+    border-radius: 34px;
+    animation: alert 1s infinite;
+}
+
+@keyframes alert {
+    0% {opacity: 0;}
+    50% {opacity: 1;} 
+    100% {opacity: 0;} 
+}
+
 @keyframes signal {
     0% {box-shadow: 0 0 0px 1px #4cdc85;}
     10% {box-shadow: 0 0 34px 1px #4cdc85;}
