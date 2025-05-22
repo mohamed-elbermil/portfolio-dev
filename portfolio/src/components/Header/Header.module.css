@@ -11,12 +11,44 @@ img {
 
 .status p {
     font-size: 18px;
+        color: var(--avalaible);
+
 }
 
 .round {
-    background: green;
+    background:var(--avalaible);
     width: 1em;
     height: 1em;
     margin-right: 1em;
     border-radius: 100em;
+    animation: signal 1s infinite;
+}
+
+@keyframes signal {
+    0% {box-shadow: 0 0 0px 1px #4cdc85;}
+    10% {box-shadow: 0 0 34px 1px #4cdc85;}
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.profile span {
+    opacity: 39%;
+
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    padding: 24px;
+}
+
+.socialMedia i{
+    font-size: 4em;
+    color: #e0e0e0;
 }

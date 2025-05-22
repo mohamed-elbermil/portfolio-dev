@@ -1,0 +1,6 @@
+@import "./_variables.css";
+
+* {
+    background: var(--primary-color);
+    color: #fff;
+}
