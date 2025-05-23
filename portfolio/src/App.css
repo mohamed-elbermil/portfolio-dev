@@ -21,7 +21,7 @@
 }
 
 .card img {
-    height: 39em;
+    height: 47em;
     width: 28em;
     border-radius: 22px 22px 0 0;
 }
@@ -40,4 +40,9 @@
     width: 36em;
     margin-right: 4em;
     font-size: 19px;
+}
+
+section {
+    margin: 0 49em;
+    height: 100vh;
 }

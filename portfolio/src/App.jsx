@@ -4,13 +4,14 @@ import './styles/_reset.css'
 import Profile from './assets/pp2.jpg'
 import Header from './components/Header/Header'
 import Button from './components/Button/Button'
+import Slide from './components/Slide/Slide'
 
 function App() {
 
   return (
     <>
   <Header></Header>
-  <div className="a-propos">
+  <section className="a-propos">
     <div className="text-left">
       <h2>à propos</h2>
       <p>Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem 
@@ -22,7 +23,17 @@ function App() {
         <img src={Profile} alt="" />
         <p>C'est moi :)</p>
       </div>
-  </div>
+  </section>
+
+  <section>
+    <div className="text-left">
+      <h3>Projets</h3>
+      <p className='description'>Lorem ipsum dolor zegzerg</p>
+    </div>
+    <Slide></Slide>
+  </section>
+
+  
     </>
   )
 }
