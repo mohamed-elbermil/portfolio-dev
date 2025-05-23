@@ -4,6 +4,7 @@ nav {
     position: fixed;
     width: 100%;
     top:2em;
+    z-index: 9999;
 }
 
 .round {
@@ -16,6 +17,7 @@ nav {
     border-radius: 90px;
     box-shadow: 5px 5px 11px #0000006e; 
     transition-duration: .4s;
+    margin-left: 3px;
 }
 
 .round:hover {
@@ -36,13 +38,11 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 3px 0;
     border-radius: 54px;
     border: solid 1px #ffffffab;
-    background: linear-gradient(135deg, #2c2c2c 0%, #3b3b3b 50%, #4a4a4a 100%);
-    z-index: 9999;
     /* Blur */
     background: linear-gradient(135deg, #2c2c2c87 0%, #3b3b3b8f 50%, #4a4a4ade 100%);
-    padding: 5px 10px;
     backdrop-filter: blur(27px);
 }
 
@@ -50,9 +50,18 @@ nav ul {
 nav a {
     font-size: 16px;
     color: #C7C7C7;
+    padding:  0 16px;
 }
 
-
-nav li {
+nav ul li:last-child a{
+    background: #121010;
     padding: 16px;
+    border-radius: 0 25px 25px 0;
+    transition-duration: .4s;
 }
+nav ul li:last-child a:hover{
+    background: white;
+    color: black;
+    font-style: italic;
+}
+
