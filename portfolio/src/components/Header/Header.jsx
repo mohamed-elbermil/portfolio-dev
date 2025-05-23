@@ -2,6 +2,7 @@ import React from "react";
 import Profil from "../../assets/pp.png"
 import styles from "./Header.module.css"
 import Navbar from "../Navbar/Navbar";
+import Button from "../Button/Button"
 
 export default function Header() {
     return(
@@ -21,7 +22,8 @@ export default function Header() {
                 <p>Hey, I’m Mohamed EL BERMIL Web Developer</p>
                 <span>France, Lyon</span>
                 <span>France, LyonFrance, LyonFrance, LyonFrance, LyonFrance, LyonFrance, LyonFrance, LyonFrance, LyonFrance, LyonFrance, Lyon</span>
-                <a href="#">Me contacter</a>
+                    <Button content="Me contacter"></Button>
+                
             </div>
             <div className={styles.socialMedia}>
                 <i class="fa-brands fa-github"></i>

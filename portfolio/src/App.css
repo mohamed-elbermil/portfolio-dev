@@ -1,0 +1,43 @@
+.a-propos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52vh;
+}
+
+.card {
+    position: relative;
+    background: rgb(255, 255, 255);
+    color: black;
+    padding: 0px 0 60px 0;
+    border-radius: 22px ;
+    transform: rotate(14deg);
+    transition-duration: .4s;
+    
+}
+
+.card:hover {
+    transform: rotate(9deg);
+}
+
+.card img {
+    height: 39em;
+    width: 28em;
+    border-radius: 22px 22px 0 0;
+}
+
+.card p {
+    position: absolute;
+    font-size: 19px;
+    bottom: 16px;
+    left: 20px;
+}
+
+.text-left {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 36em;
+    margin-right: 4em;
+    font-size: 19px;
+}

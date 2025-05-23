@@ -39,7 +39,7 @@ nav ul {
     border-radius: 54px;
     border: solid 1px #ffffffab;
     background: linear-gradient(135deg, #2c2c2c 0%, #3b3b3b 50%, #4a4a4a 100%);
-c    z-index: 9999;
+    z-index: 9999;
     /* Blur */
     background: linear-gradient(135deg, #2c2c2c87 0%, #3b3b3b8f 50%, #4a4a4ade 100%);
     padding: 5px 10px;

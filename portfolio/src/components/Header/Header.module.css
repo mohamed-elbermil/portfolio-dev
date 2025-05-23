@@ -76,12 +76,11 @@ img {
     opacity: 39%;
 }
 
-.profile a {
-    background: #272727;
-    width: 10em;
-    padding: 8px;
-    border-radius: 8px;
-    border: solid 2px #ffffff87;
+
+
+.profile p {
+    font-size: 2em;
+    line-height: 49px;
 }
 
 .socialMedia {
