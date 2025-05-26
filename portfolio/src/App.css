@@ -45,3 +45,9 @@ section {
   height: 100vh;
   margin: 0 12em;
 }
+
+.align-column {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}

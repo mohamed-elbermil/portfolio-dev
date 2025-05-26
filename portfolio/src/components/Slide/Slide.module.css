@@ -1,38 +1,44 @@
 .borderWrapper {
-    position: relative;
-    padding: 8px;
-    margin-top: 3em;
-    border-radius: 15px;
-    background: linear-gradient(344deg, #3b3b3b, #7a7b81);
-    display: inline-block;
+  position: relative;
+  padding: 8px;
+  margin-top: 3em;
+  border-radius: 15px;
+  background: linear-gradient(344deg, #3b3b3b, #7a7b81);
+  display: inline-block;
+  width: 40em;
 }
 
-.website{
-    display: block;
-    width: 49em;
-    border-radius: 7px;
+.website {
+  display: block;
+  width: 49em;
+  border-radius: 7px;
 }
 
 .details {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background: #00000091;
-    padding: 9px 13px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 12em;
-    border-radius: 12px;
-    border: solid 1px white;
-    backdrop-filter: blur(16px);
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  background: #00000091;
+  padding: 9px 13px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 12px;
+  border: solid 1px white;
+  backdrop-filter: blur(16px);
 }
 
 .details p {
-    font-size: 21px;
-    font-weight: 600;
+  font-size: 21px;
+  font-weight: 600;
+  margin-right: 2em;
 }
 
 .details {
-    font-size: 15px;
+  font-size: 15px;
+}
+
+.projects {
+  gap: 16px;
+  display: flex;
 }

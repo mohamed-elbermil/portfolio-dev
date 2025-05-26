@@ -1,0 +1,13 @@
+.paragraph {
+  font-size: clamp(2rem, 10vw, 7rem);
+  line-height: 1.6;
+  margin: 0 auto;
+  padding: 2rem;
+  overflow: hidden;
+}
+
+.letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px);
+}
