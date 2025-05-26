@@ -6,6 +6,11 @@
   background: linear-gradient(344deg, #3b3b3b, #7a7b81);
   display: inline-block;
   width: 40em;
+  transition-duration: 0.4s;
+}
+
+.borderWrapper:hover {
+  box-shadow: 0 0 231px #ffffff4d;
 }
 
 .website {
@@ -41,4 +46,14 @@
 .projects {
   gap: 16px;
   display: flex;
+}
+
+.blurContainer {
+  position: absolute;
+  z-index: -1;
+}
+
+.blur {
+  width: 84em;
+  filter: blur(240px);
 }
