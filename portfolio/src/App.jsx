@@ -6,6 +6,7 @@ import Header from "./components/Header/Header";
 import Button from "./components/Button/Button";
 import Slide from "./components/Slide/Slide";
 import TextReveal from "./components/TextReveal/TextReveal";
+import Outil from "./components/Outils/Outil";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <p>C'est moi :)</p>
         </div>
       </section>
+      <Outil></Outil>
 
       <section className="align-column">
         <div className="text-left">

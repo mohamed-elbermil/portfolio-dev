@@ -4,3 +4,13 @@ body {
     background: var(--primary-color);
     color: #fff;
 }
+
+h1, h2, h3,h4,h5 {
+    font-size: 64px;
+    line-height: 73px;
+}
+
+.description {
+    font-size: 17.6px;
+    opacity: 39%;
+}

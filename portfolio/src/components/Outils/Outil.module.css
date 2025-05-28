@@ -1,0 +1,46 @@
+@import url("../../styles/_variables.css");
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container, .title {
+    gap: 28px;
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 56em;
+    gap: 28px;
+
+}
+
+span {
+    color: var(--color);
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    border: solid 1px #ffffff69;
+    padding: 7px 15px;
+    border-radius: 11px;
+}
+
+.allBox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.box p {
+    font-size: 16px;
+}
+
+i {
+    font-size: 29px;
+    margin-right: 14px;
+}
