@@ -30,6 +30,7 @@ export default function Header() {
           <i class="fa-brands fa-github"></i>
           <i class="fa-brands fa-linkedin"></i>
         </div>
+        <div className={styles.background}></div>
       </header>
     </>
   );

@@ -7,6 +7,7 @@ import Button from "./components/Button/Button";
 import Slide from "./components/Slide/Slide";
 import TextReveal from "./components/TextReveal/TextReveal";
 import Outil from "./components/Outils/Outil";
+import Profil from "./components/Profil/Profil";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
       <section>
         <TextReveal></TextReveal>
       </section>
+      <Profil></Profil>
     </>
   );
 }

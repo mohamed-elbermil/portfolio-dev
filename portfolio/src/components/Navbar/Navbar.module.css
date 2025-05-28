@@ -62,13 +62,13 @@ nav a:hover {
 }
 
 nav ul li:last-child a {
-  background: #121010;
-  padding: 16px;
-  border-radius: 0 25px 25px 0;
-  transition-duration: 0.4s;
+    background: #121010;
+    padding: 15px 33px;
+    border-radius: 55px;
+    transition-duration: 0.4s;
+    margin-right: 4px;
 }
 nav ul li:last-child a:hover {
   background: white;
   color: black;
-  font-style: italic;
 }

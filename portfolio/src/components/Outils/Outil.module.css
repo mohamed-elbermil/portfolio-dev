@@ -3,6 +3,9 @@
 .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    width: 56em;
+
 }
 
 .container, .title {
@@ -13,7 +16,6 @@
 .title {
     display: flex;
     flex-direction: column;
-    width: 56em;
     gap: 28px;
 
 }

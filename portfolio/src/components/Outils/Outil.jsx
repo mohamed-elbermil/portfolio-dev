@@ -26,6 +26,38 @@ export default function Outil() {
                         <i class="fa-brands fa-html5"></i>
                         <p>Javascript</p>
                     </div>
+                    <div className={styles.box}>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div className={styles.box}>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div className={styles.box}>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div className={styles.box}>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div className={styles.box}>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div className={styles.box}>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div className={styles.box}>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>Javascript</p>
+                    </div>
+                    <div className={styles.box}>
+                        <i class="fa-brands fa-html5"></i>
+                        <p>Javascript</p>
+                    </div>
                 </div>
             </div>
     </section>
