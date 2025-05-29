@@ -6,9 +6,12 @@ export default function Navbar() {
     <>
       <nav>
         <ul>
+          <li>
+
           <a href="#" className={styles.round}>
             <i class="fa-solid fa-house"></i>
           </a>
+          </li>
 
           <li>
             <a href="#">Home</a>

@@ -32,6 +32,7 @@ nav {
   font-size: 18px;
   color: #ffffffde;
   transition-duration: 0.2s;
+  margin: 0;
 }
 
 nav ul {
@@ -68,7 +69,10 @@ nav ul li:last-child a {
     transition-duration: 0.4s;
     margin-right: 4px;
 }
+
 nav ul li:last-child a:hover {
   background: white;
   color: black;
 }
+
+
