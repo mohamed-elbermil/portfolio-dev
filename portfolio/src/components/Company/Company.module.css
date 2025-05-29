@@ -5,7 +5,9 @@
     margin: 2em 0;
 }
 
-
+.sectionTitle {
+    margin: 9em 0;
+}
 
 .code {
     display: flex;
@@ -28,11 +30,29 @@
     color: #AE7C66;
 }
 
-ul {
+.list{
     margin: 2em 0;
     list-style-type: disc;
 }
 
 li::marker {
     color:var(--color)
+}
+
+p{
+    font-size: 17px;
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 1rem;
+    width: 58em;
+    margin: 3em 0;
+}
+
+.role {
+    display: flex;
+    align-items: center;
 }
