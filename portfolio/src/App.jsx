@@ -10,28 +10,13 @@ import Outil from "./components/Outils/Outil";
 import Profil from "./components/Profil/Profil";
 import Company from "./components/Company/Company";
 import Veille from "./components/Veille/Veille";
+import About from "./components/About/About";
 
 function App() {
   return (
     <>
       <Header></Header>
-      <section className="a-propos">
-        <div className="text-left">
-          <h2>à propos</h2>
-          <p>
-            Lorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum
-            dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum
-            dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum
-            dolorLorem ipsum dolorLorem ipsum dolorLorem ipsum dolorLoremipsum
-            dolorLorem ipsum dolorLorem
-          </p>
-          <Button content="Voir +"></Button>
-        </div>
-        <div className="card">
-          <img src={Profile} alt="" />
-          <p>C'est moi :)</p>
-        </div>
-      </section>
+      <About></About>
       <Outil></Outil>
 
       <section className="align-column">
@@ -41,9 +26,7 @@ function App() {
         </div>
         <Slide></Slide>
       </section>
-      <section>
         <TextReveal></TextReveal>
-      </section>
       <Profil ></Profil>
       <Company></Company>
       <Veille></Veille>

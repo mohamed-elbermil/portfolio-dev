@@ -1,5 +1,5 @@
 .wrapper {
-  height: 61vh;
+  /* height: 61vh; */
   overflow: hidden;
 }
 
@@ -7,7 +7,6 @@
   font-size: clamp(2rem, 10vw, 7rem);
   line-height: 1.6;
   margin: 0 auto;
-  padding: 2rem;
   overflow: hidden;
 }
 

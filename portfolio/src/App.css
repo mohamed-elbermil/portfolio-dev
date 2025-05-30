@@ -1,9 +1,3 @@
-.a-propos {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .card {
   position: relative;
   background: rgb(255, 255, 255);

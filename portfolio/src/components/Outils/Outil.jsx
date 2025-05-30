@@ -1,16 +1,23 @@
 import React from "react";
 import styles from "./Outil.module.css";
+import Title from "../Title/Title";
 
 export default function Outil() {
   return (
     <>
     <section className={styles.container}>
         <div className={styles.title}>
-            <h2>L’arsenal 
-                d’application qui fait 
-                toute la <span>différence</span>.
-            </h2>
-            <p className="description">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum.</p>
+             <Title
+                        theme="Outils"
+                        title={
+                        <>
+                            L’arsenal 
+                            d’application qui fait 
+                            toute la <span>&lt;différence /&gt;</span>
+                        </>
+                        }
+                        text="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum."
+                        />
         </div>
             <div className={styles.technologies}>
                 <div className={styles.allBox}>
