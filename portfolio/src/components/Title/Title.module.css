@@ -1,5 +1,14 @@
 .title {
-    margin-bottom: 15px;
+    margin: 14px 0;
+}
+
+.theme {
+    background: #673ab736;
+    padding: 8px 24px;
+    border-radius: 44px;
+    border: solid 1px #ffffff6b;
+    font-size: 19px;
+    color: #d597ff;
 }
 
 .paragraph {

@@ -1,0 +1,25 @@
+.allArticles {
+    display: flex;
+    gap: 3em;
+}
+
+.articleItem {
+    background: linear-gradient(45deg, black, #282828);
+    margin: 1em 0;
+    padding: 2em;
+    border-radius: 20px;
+    transition: .4s;
+}
+
+.articleItem:hover {
+    scale: 1.05;
+}
+
+.articleTitle {
+    font-size: 23px;
+}
+
+.lastArticles {
+    color: red;
+    font-size: 25px;
+}

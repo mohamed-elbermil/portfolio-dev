@@ -10,6 +10,7 @@ export default function Company({ title, text }){
     <section>
         <div className={styles.sectionTitle}>
             <Title
+            theme="Entreprise"
             title={
             <>
                 Une ligne de code à la fois,<br></br> chez <span>&lt;Penguin World /&gt;</span>
@@ -39,6 +40,7 @@ export default function Company({ title, text }){
 
         <div className={styles.sectionTitle}>
             <Title
+            theme="Contexte"
             title={
                 <>
                 Le contexte de 
@@ -59,6 +61,7 @@ export default function Company({ title, text }){
         </div>    
         <div className={styles.sectionTitle}>
             <Title
+            theme="L'équipe"
             title={
                 <>
             Une équipe,

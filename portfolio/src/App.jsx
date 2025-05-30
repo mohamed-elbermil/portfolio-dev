@@ -9,6 +9,7 @@ import TextReveal from "./components/TextReveal/TextReveal";
 import Outil from "./components/Outils/Outil";
 import Profil from "./components/Profil/Profil";
 import Company from "./components/Company/Company";
+import Veille from "./components/Veille/Veille";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
       </section>
       <Profil ></Profil>
       <Company></Company>
+      <Veille></Veille>
 
     </>
   );
