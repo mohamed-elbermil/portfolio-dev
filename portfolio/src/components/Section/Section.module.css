@@ -1,0 +1,6 @@
+.section {
+  opacity: 0; /* point de départ : invisible */
+  transform: translateY(40px); /* position de départ */
+  transition: all 0.3s ease-out;
+  margin-bottom: 2rem;
+}

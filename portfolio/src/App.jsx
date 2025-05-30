@@ -11,13 +11,18 @@ import Profil from "./components/Profil/Profil";
 import Company from "./components/Company/Company";
 import Veille from "./components/Veille/Veille";
 import About from "./components/About/About";
+import Section from "./components/Section/Section";
 
 function App() {
   return (
     <>
       <Header></Header>
-      <About></About>
-      <Outil></Outil>
+        <Section>
+          <About></About>
+        </Section>
+      <Section>
+        <Outil></Outil>
+      </Section>
 
       <section className="align-column">
         <div className="text-left">
@@ -27,9 +32,15 @@ function App() {
         <Slide></Slide>
       </section>
         <TextReveal></TextReveal>
-      <Profil ></Profil>
-      <Company></Company>
-      <Veille></Veille>
+        <Section>
+          <Profil ></Profil>
+        </Section>
+        <Section>
+          <Company></Company>
+        </Section>
+        <Section>
+          <Veille></Veille>
+        </Section>
 
     </>
   );
