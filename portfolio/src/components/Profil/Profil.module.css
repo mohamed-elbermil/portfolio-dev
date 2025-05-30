@@ -8,11 +8,9 @@
 
 .container p {
     font-size: 22px;
-
 }
 
 .container span {
-    /* color: var(--color); */
     background: linear-gradient(270deg, #921DE2, #dc7433, #e21d76);
     background-size: 600% 600%;
     -webkit-background-clip: text;
@@ -32,15 +30,25 @@
   }
 }
 
+.perspectiveWrapper {
+  perspective: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
 .cv {
-    background: #ffffff59;
-    padding: 1em;
-    border-radius: 23px;
-    margin-top: 5em;
-    width: 64%;
+  background: #ffffff59;
+  padding: 1em;
+  border-radius: 23px;
+  margin-top: 5em;
+  width: 64%;
+  transform-style: preserve-3d;
+  transition: transform 0.1s ease-out;
 }
 
 .cv img {
-    border-radius: 11px;
-    width: 100%;
+  border-radius: 11px;
+  width: 100%;
+  display: block;
 }
+
