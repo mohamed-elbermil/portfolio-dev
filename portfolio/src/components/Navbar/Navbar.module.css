@@ -73,8 +73,9 @@ nav ul li:last-child a {
 }
 
 nav ul li:last-child a:hover {
-  background: white;
+  background: #ffffff78;
   color: black;
+  padding: 15px 41px;
 }
 
 

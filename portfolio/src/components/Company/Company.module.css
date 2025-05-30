@@ -5,6 +5,27 @@
     margin: 2em 0;
 }
 
+.sectionTitle span {
+    /* color: var(--color); */
+    background: linear-gradient(270deg, #921DE2, #dc7433, #e21d76);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 8s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 .sectionTitle {
     margin: 9em 0;
 }
