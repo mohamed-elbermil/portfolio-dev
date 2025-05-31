@@ -77,3 +77,64 @@ p{
     display: flex;
     align-items: center;
 }
+/* Conteneur principal du scroll horizontal */
+.horizontalScrollSection {
+  padding: 0;
+  position: relative;
+  height: 100vh;       /* plein écran vertical */
+  overflow: hidden;    /* masque le scroll vertical */
+}
+
+/* Container des images (galeries) en ligne */
+.galeries {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  height: 72vh;
+  width: max-content;  /* prend la largeur nécessaire */
+}
+
+/* Chaque image pleine largeur écran */
+.PenguinWorld {
+  flex-shrink: 0;      /* interdit le rétrécissement */
+  width: 100vw;        /* largeur = largeur écran */
+  height: 70vh!important;       /* hauteur = hauteur écran */
+  object-fit: cover;   /* image bien remplie */
+  border-radius: 25px; /* si tu veux garder le style */
+  margin: 0;           /* margin à 0 pour éviter le décalage */
+}
+
+.title {
+    margin-top: 1em;
+}
+
+.title span {
+    /* color: var(--color); */
+    background: linear-gradient(270deg, #921DE2, #dc7433, #e21d76);
+    background-size: 600% 600%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 8s ease infinite;
+}
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.plane {
+  position: absolute;
+  bottom: 10%; /* hauteur du vol */
+  left: 0;
+  font-size: 6rem;
+  pointer-events: none;
+  user-select: none;
+  will-change: transform;
+  z-index: 100;
+}

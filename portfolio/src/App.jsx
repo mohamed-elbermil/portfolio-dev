@@ -35,9 +35,7 @@ function App() {
         <Section>
           <Profil ></Profil>
         </Section>
-        <Section>
           <Company></Company>
-        </Section>
         <Section>
           <Veille></Veille>
         </Section>
