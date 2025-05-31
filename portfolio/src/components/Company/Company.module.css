@@ -138,3 +138,9 @@ p{
   will-change: transform;
   z-index: 100;
 }
+
+@media screen and (max-width:1024px) {
+    .PenguinWorld {
+        width: 10%;
+    }
+}

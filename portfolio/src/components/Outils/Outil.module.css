@@ -62,3 +62,9 @@ i {
     font-size: 29px;
     margin-right: 14px;
 }
+
+@media screen and (max-width:1024px) {
+  .container {
+    width: auto;
+  }
+}

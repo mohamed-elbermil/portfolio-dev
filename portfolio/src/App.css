@@ -45,3 +45,9 @@ section {
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width:1024px) {
+section {
+  margin: 0 3em;
+}
+}
