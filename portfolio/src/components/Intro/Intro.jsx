@@ -22,7 +22,7 @@ export default function Intro() {
 
             <li><span className='primary'><i class="fa-solid fa-briefcase"></i></span> Alternance</li>
         </ul>
-
+                                 
     </section>
     </>
   );
