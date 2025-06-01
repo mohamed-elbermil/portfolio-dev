@@ -1,6 +1,7 @@
 .wrapper {
   /* height: 61vh; */
   overflow: hidden;
+  margin: 11em 12em;
 }
 
 .paragraph {
@@ -12,6 +13,7 @@
 
 .letter {
   display: inline-block;
+  white-space: pre;
   opacity: 0;
   transform: translateY(20px);
 }

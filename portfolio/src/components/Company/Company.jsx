@@ -11,12 +11,10 @@ gsap.registerPlugin(ScrollTrigger);
 export default function Company() {
   const horizontalSectionRef = useRef(null);
   const galeriesRef = useRef(null);
-  const planeRef = useRef(null); // Ref pour l’avion
 
   useEffect(() => {
     const galeries = galeriesRef.current;
     const section = horizontalSectionRef.current;
-    const plane = planeRef.current;
 
     const scrollLength = galeries.scrollWidth - window.innerWidth;
 
@@ -35,18 +33,6 @@ export default function Company() {
         },
       });
 
-      // Animation avion : avancer + rotation sur tout le scroll
-      gsap.to(plane, {
-        x: scrollLength,
-        rotation: 90,
-        ease: "none",
-        scrollTrigger: {
-          trigger: section,
-          start: "top top",
-          end: () => `+=${scrollLength}`,
-          scrub: 1,
-        },
-      });
     }, horizontalSectionRef);
 
     return () => ctx.revert();
@@ -65,11 +51,8 @@ export default function Company() {
           <img src={PenguinWorld3} alt="Penguin World 3" className={styles.PenguinWorld} />
         </div>
 
-        {/* Picto avion */}
-        <div className={styles.plane} ref={planeRef}>
-          ✈️
-        </div>
-      </div>
+
+     
 
       <div className={styles.sectionTitle}>
         <div className={styles.code}>
@@ -78,7 +61,7 @@ export default function Company() {
           <p>const <span>taille</span> = 'PME'</p>
           <p>const <span>objectifs</span> = 'lalalalalal'</p>
         </div>
-      </div>
+      </div> </div>
     </section>
   );
 }
