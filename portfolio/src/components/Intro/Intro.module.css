@@ -1,0 +1,12 @@
+.context {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
