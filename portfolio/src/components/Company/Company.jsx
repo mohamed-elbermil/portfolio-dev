@@ -39,9 +39,9 @@ export default function Company() {
   }, []);
 
   return (
-    <section className={styles.page}>
+    <section className={styles.page} id="company">
       <div className={styles.horizontalScrollSection} ref={horizontalSectionRef}>
-        <h2 className={styles.title}>L'<span>&lt;Entreprise /&gt;</span></h2>
+        <h2 className={styles.title}>L'<span className="span">&lt;Entreprise /&gt;</span></h2>
         <p>Une ligne de code à la fois, chez &lt;Penguin World /&gt;</p>
 
         {/* Images scroll horizontal */}
@@ -50,10 +50,6 @@ export default function Company() {
           <img src={PenguinWorld2} alt="Penguin World 2" className={styles.PenguinWorld} />
           <img src={PenguinWorld3} alt="Penguin World 3" className={styles.PenguinWorld} />
         </div>
-
-
-     
-
       <div className={styles.sectionTitle}>
         <div className={styles.code}>
           <p>const <span>nomEntreprise</span> = 'Penguin World'</p>
@@ -61,7 +57,9 @@ export default function Company() {
           <p>const <span>taille</span> = 'PME'</p>
           <p>const <span>objectifs</span> = 'lalalalalal'</p>
         </div>
-      </div> </div>
+      </div> 
+      <h1>test</h1>
+      </div>
     </section>
   );
 }

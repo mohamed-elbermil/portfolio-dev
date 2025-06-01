@@ -19,13 +19,13 @@ export default function Veille() {
   }, []);
 
   return (
-    <section>
+    <section id="veille">
       <Title
         theme="Veille technologique"
         title={
           <>
             Toujours connectés aux dernières
-            <span> &lt; tendances /&gt;</span>
+            <span className="span"> &lt;tendances/&gt;</span>
           </>
         }
         text="Voici les dernières actualités TechCrunch avec images extraites."

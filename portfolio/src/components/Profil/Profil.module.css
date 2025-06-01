@@ -10,26 +10,6 @@
     font-size: 22px;
 }
 
-.container span {
-    background: linear-gradient(270deg, #921DE2, #dc7433, #e21d76);
-    background-size: 600% 600%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: gradientMove 8s ease infinite;
-}
-
-@keyframes gradientMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 .perspectiveWrapper {
   perspective: 1000px;
   display: flex;

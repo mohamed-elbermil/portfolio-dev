@@ -13,7 +13,7 @@ export default function Outil() {
                         <>
                             L’arsenal 
                             d’application qui fait 
-                            toute la <span>&lt;différence /&gt;</span>
+                            toute la <span className="span">&lt;différence /&gt;</span>
                         </>
                         }
                         text="Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum."

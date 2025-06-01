@@ -17,13 +17,19 @@ export default function Navbar() {
             <a href="#">Home</a>
           </li>
           <li>
-            <a href="#">Entreprise</a>
+            <a href="#company">Entreprise</a>
           </li>
           <li>
-            <a href="#">Veille technologique</a>
+            <a href="#mission">Mission</a>
           </li>
           <li>
-            <a href="#">Projets</a>
+            <a href="#veille">Veille</a>
+          </li>
+          <li>
+            <a href="#parcours">CV</a>
+          </li>
+          <li>
+            <a href="">Projets</a>
           </li>
           <li>
             <a href="#">Contact</a>

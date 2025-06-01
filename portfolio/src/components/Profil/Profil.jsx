@@ -32,9 +32,9 @@ export default function Profil() {
   }, []);
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container} id="parcours">
       <h2>
-        Découvrez mon <span>parcours</span>
+        Découvrez mon <span className="span">parcours</span>
       </h2>
       <p>Obtenez un aperçu rapide de mon parcours et de mes compétences.</p>
 
