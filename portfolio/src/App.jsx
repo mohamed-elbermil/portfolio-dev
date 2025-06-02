@@ -22,22 +22,19 @@ function App() {
   return (
     <>
       <Header></Header>
-        <Section>
-          <About></About>
-        </Section>
+      <Section>
+        <About></About>
+      </Section>
       <Section>
         <Outil></Outil>
       </Section>
-        <TextReveal text="loremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"></TextReveal>
-        <Section>
-          <Profil ></Profil>
-        </Section>
-          <Company></Company>
-          <TextCenter></TextCenter>
-          <Intro></Intro>
-          <Mission></Mission>
-          <Veille></Veille>
-
+      <TextReveal text="loremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeremezeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"></TextReveal>
+      <Profil></Profil>
+      <Company></Company>
+      <TextCenter></TextCenter>
+      <Intro></Intro>
+      <Mission></Mission>
+      <Veille></Veille>
     </>
   );
 }
